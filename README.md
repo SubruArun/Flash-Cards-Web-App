@@ -5,13 +5,13 @@ online flash cards for studying using flask.
 Note: This repo is the staging branch where all the commits would be made, and tested, before pushing to main branch
 
 ## How to Run Locally:
-* `git clone https://gitlab.com/thi-wi/sweng/m-egm/team14.git`
+* Clone repo
 * Dependencies - `pip install -r requirements.txt`
 * To Run app -`flask run`
 * To Run with debug mode - `flask run --debug`
 
 ## Run as Docker Service
-* `git clone https://gitlab.com/thi-wi/sweng/m-egm/team14.git`
+* Clone repo
 * Dependencies - `pip install -r requirements.txt`, [Docker App](https://www.docker.com/products/docker-desktop/)
 * Create container -`docker build -t team14_web:latest .`
   * Or build container and run immediately - `docker-compose up --build`
